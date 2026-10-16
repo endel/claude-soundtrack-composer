@@ -1,4 +1,4 @@
-# Claude Soundtrack Composer
+<h1 align="center"><img src="media/header.jpg" alt="Claude Soundtrack Composer: Claude Code's mascot conducting an orchestra of light" width="100%"></h1>
 
 Describe a song to Claude. Claude composes it at the level of music theory (form, keys, chords, themes, who plays
 what), a seeded engine works out every note, and REAPER renders it with the virtual instruments on your own
