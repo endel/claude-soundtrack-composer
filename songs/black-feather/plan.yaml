@@ -1,0 +1,158 @@
+# From prompt.md. An original villain's theme in the manner of an epic final-battle cue: dark C# minor leaning on its
+# Phrygian half step (D major as bII), string ostinatos accented 3+3+2, low brass chanting where a choir would, a
+# slow omen first, a Lydian interlude like a fallen angel's lullaby, then a climb that breaks a half step higher.
+title: Black Feather
+key: C# minor
+tempo: 150
+meter: [4, 4]
+seed: 1
+
+ensemble:
+  vln1: { instrument: bbc/vln1, name: Violins 1, group: strings, pan: -0.4 }
+  vln2: { instrument: bbc/vln2, name: Violins 2, group: strings, pan: -0.15 }
+  vla: { instrument: bbc/vla, name: Violas, group: strings, pan: 0.15 }
+  vc: { instrument: bbc/vc, name: Celli, group: strings, pan: 0.3, vol: -2 }
+  cb: { instrument: bbc/cb, name: Basses, group: strings, pan: 0.45, vol: -3 }
+  hn: { instrument: bbc/hn, name: Horns, group: brass, pan: -0.2, vol: -2 }
+  tpt: { instrument: bbc/tpt, name: Trumpets, group: brass, pan: 0.1, vol: -4 }
+  tbn: { instrument: bbc/tbn, name: Trombones, group: brass, pan: 0.25, vol: -3 }
+  btb: { instrument: bbc/btb, name: Bass Trombones, group: brass, pan: 0.3, vol: -4 }
+  tba: { instrument: bbc/tba, name: Tuba, group: brass, pan: 0.35, vol: -5 }
+  timp: { instrument: bbc/timpani, name: Timpani, group: perc, vol: -2 }
+  harp: { instrument: bbc/harp, name: Harp, pan: -0.3 }
+  cel: { instrument: bbc/celeste, name: Celeste, pan: 0.2, vol: -4 }
+  fl: { instrument: bbc/fl, name: Flutes, group: winds, pan: -0.05, vol: -2 }
+  drums: { instrument: ezd3, name: Drums, setup: { kit: MetalMachine }, vol: -9 }
+
+themes:
+  # the omen: a slow lament, its half step leaning down onto the fifth
+  omen: "5:2 b6:2 | 5:3 1:1 | b2:4 | 1:4"
+  # the chant: syllables on one note, a Phrygian turn, like monks in the dark
+  chant: "1:1 1:1 1:1 b2:1 | 1:2 r:1 5,:1 | 3:1 3:1 3:1 b2:1 | 1:4"
+  # the wing: a dotted rise to the sixth, a fall through the Phrygian second, a climb to the high third, home
+  wing: "1:3/2 5:1/2 b6:2 | 5:1 4:1 3:1 b2:1 | 1:2 r:1/2 1:1/2 3:1 | 4:3 5:1 | 3':3/2 7:1/2 1':2 | 7:2 4:1 3:1 | 5:2 #7,:1 2:1 | 1:4"
+  # the halo: the wing's opening in 3/4 and Lydian, a music box
+  halo: "1:2 5:1 | 6:3 | #4:1 5:1 3:1 | 2:3"
+
+sections:
+  - name: omen
+    bars: 6
+    tempo: 66
+    chords: "i:2 iv:2 | i | bII | i | Ger | V"
+    dynamics: pp<ff
+    parts:
+      hn: { play: melody, line: [omen], octave: 4 }
+      vln1,vln2: { play: harmony, artic: trem, register: C#5-C#6 }
+      tbn,btb: { play: harmony }
+      tba: { play: bass }
+      vc: { play: bass, pedal: "1", artic: trem }
+      cb: { play: bass, pedal: "1" }
+      timp: { play: figure, bars: 5-6, rhythm: "~~~~~~~~~~~~~~~~", notes: "1" }
+
+  - name: riff
+    bars: 8
+    chords: "i | bII | i | bII | VI | Ger | V | V"
+    dynamics: f
+    parts:
+      vln2,vla: { play: figure, rhythm: "Xx.Xx.XxXx.Xx.Xx", notes: "1 1 1 1 b2 1 1 1 1 1 b2 1" }
+      vc,cb: { play: bass, rhythm: "X..X..X.X..X..X." }
+      tbn,btb: { play: harmony, rhythm: "X..X..X.X..X..X." }
+      hn: { play: harmony, voices: 2, dynamics: mf<f }
+      vln1: { play: harmony, bars: 5-8, artic: trem, register: G#5-G#6, dynamics: mp<ff }
+      timp: { play: figure, rhythm: "X..X..X.X..X..X.", notes: "1" }
+      drums: { play: drums, groove: tribal, fill: 4 }
+
+  - name: chant
+    bars: 8
+    chords: "i | i | VI | i | i | bII | VI | V"
+    dynamics: mf<f
+    parts:
+      hn: { play: melody, line: [chant, chant end=5] }
+      tbn: { play: double, of: hn, octave: -1 }
+      vln2,vla: { play: figure, rhythm: "Xx.Xx.XxXx.Xx.Xx", notes: "1 1 1 1 b2 1 1 1 1 1 b2 1", dynamics: mf }
+      vc,cb: { play: bass, rhythm: "X..X..X.X..X..X." }
+      btb,tba: { play: bass }
+      vln1: { play: harmony, artic: trem, register: G#5-G#6, dynamics: p<mf }
+      timp: { play: figure, rhythm: "X.......X.......", notes: "1" }
+      drums: { play: drums, groove: halftime, cymbal: ride }
+
+  - name: wings
+    bars: 16
+    chords: "i:2 VI:2 | i | VI | iv | VI | VII | V | i | i:2 VI:2 | i | VI | iv | bII | Ger | V | V"
+    dynamics: f<ff
+    parts:
+      vln1: { play: melody, line: [wing, "wing [0-16] vary=0.4", gen 4 rise end=5], octave: 5 }
+      tpt: { play: double, of: vln1, octave: -1, artic: long }
+      vla: { play: counter, against: vln1 }
+      vln2: { play: figure, rhythm: "Xx.Xx.XxXx.Xx.Xx", notes: "1 1 1 1 b2 1 1 1 1 1 b2 1", dynamics: mf<f }
+      vc,cb: { play: bass, rhythm: "X.x.x.x.X.x.x.x." }
+      hn: { play: harmony, voices: 2 }
+      tbn,btb: { play: harmony, rhythm: "X.......X..X...." }
+      tba: { play: bass }
+      timp: { play: figure, rhythm: "X...X...X...X.xx", notes: "1 1 1 1 5 1" }
+      drums: { play: drums, groove: double, cymbal: ride, fill: 4, ghosts: 0.3 }
+
+  - name: angel
+    bars: 8
+    key: A lydian
+    tempo: 84
+    meter: [3, 4]
+    chords: "I | II | II | V | I | II | V | I"
+    dynamics: pp<mp>pp
+    parts:
+      fl: { play: melody, line: [halo, gen 4 fall end=1] }
+      cel: { play: double, of: fl }
+      harp: { play: figure, rhythm: "xxxxxx", arp: updown }
+      vln1,vln2,vla: { play: harmony, dynamics: pp<p>pp }
+      vc: { play: bass }
+
+  - name: ascent
+    bars: 8
+    tempo: [96, 150]
+    chords: "i | bII | i | bII | VI | VII | Ger | V"
+    dynamics: p<ff
+    parts:
+      vln2,vla: { play: figure, rhythm: "Xx.Xx.XxXx.Xx.Xx", notes: "1 1 1 1 b2 1 1 1 1 1 b2 1" }
+      vc,cb: { play: bass, rhythm: "X..X..X.X..X..X." }
+      vln1: { play: harmony, artic: trem, register: G#5-G#6 }
+      hn,tbn: { play: harmony }
+      btb,tba: { play: bass }
+      timp: { play: figure, bars: 7-8, rhythm: "~~~~~~~~~~~~~~~~", notes: "1" }
+      drums: { play: drums, groove: tribal, fill: 4 }
+
+  - name: apotheosis
+    bars: 16
+    key: D minor
+    chords: "i:2 VI:2 | i | VI | iv | VI | VII | V | i | i:2 VI:2 | i | VI | iv | bII | Ger | V | V"
+    dynamics: ff
+    parts:
+      vln1: { play: melody, line: [wing, "wing [0-16] vary=0.4", gen 4 arch end=5], octave: 5 }
+      vln2: { play: double, of: vln1, octave: -1, artic: long }
+      tpt: { play: double, of: vln1, octave: -1, artic: long }
+      fl: { play: double, of: vln1, artic: long }
+      hn: { play: counter, against: vln1 }
+      vla: { play: figure, rhythm: "Xx.Xx.XxXx.Xx.Xx", notes: "1 1 1 1 b2 1 1 1 1 1 b2 1" }
+      vc,cb: { play: bass, rhythm: "X.x.x.x.X.x.x.x." }
+      tbn,btb: { play: harmony, rhythm: "X.......X..X...." }
+      tba: { play: bass }
+      timp: { play: figure, rhythm: "X...X...X...X.xx", notes: "1 1 1 1 5 1" }
+      drums: { play: drums, groove: double, cymbal: ride, fill: 4, ghosts: 0.4 }
+
+  - name: finale
+    bars: 3
+    key: D minor
+    tempo: [150, 128]
+    chords: "bII | V | i"
+    dynamics: ff<fff
+    parts:
+      vln1,vln2,vla,hn,tpt,tbn: { play: harmony, rhythm: "X..X..X.X..X.X.X|X..X..X.X..X.X.X|X---------------" }
+      vc,cb,btb,tba: { play: bass, rhythm: "X..X..X.X..X.X.X|X..X..X.X..X.X.X|X---------------" }
+      timp: { play: figure, rhythm: "X..X..X.X..X.X.X|X..X..X.X..X.X.X|X~~~~~~~~~~~~~~~", notes: "1" }
+      drums:
+        play: drums
+        fill: false
+        crash: false
+        groove:
+          kick: "X..X..X.X..X.X.X|X..X..X.X..X.X.X|X..............."
+          snare: "X..X..X.X..X.X.X|X..X..X.X..X.X.X|................"
+          crash: "X...............|X.......X.......|X..............."

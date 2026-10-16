@@ -1,0 +1,4439 @@
+{
+ "Brass_Bass_Trombones_a2": {
+  "artics": [
+   "h - Bass Trombones a2 - Long",
+   "h - Bass Trombones a2 - Short Staccatissimo"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0.5,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 1,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Brass_Horns_a4": {
+  "artics": [
+   "b - Horns a4 - Long",
+   "b - Horns a4 - Short Staccatissimo"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0.5,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 1,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Brass_Tenor_Trombones_a3": {
+  "artics": [
+   "f - Tenor Trombones a3 - Long",
+   "f - Tenor Trombones a3 - Short Staccatissimo"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0.5,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 1,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Brass_Trumpets_a3": {
+  "artics": [
+   "d - Trumpets a2 - Long",
+   "d - Trumpets a2 - Short Staccatissimo"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0.5,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 1,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Brass_Tuba": {
+  "artics": [
+   "i - Tuba - Long",
+   "i - Tuba - Short Staccatissimo"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0.5,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 1,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Percussion_Harp_and_Celeste": {
+  "artics": [
+   "c - Harp - Short Sustained Discover",
+   "e - Celeste - Short Sustained Discover"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0.5,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 0.5,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 1,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Percussion_Percussion": {
+  "artics": [
+   "b - Timpani - Short Hits Discover",
+   "a - Untuned Percussion - Hits"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0.5,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 0.5,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 1,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Percussion_Tuned_Percussion": {
+  "artics": [
+   "h - Tubular bells - Short Hits Discover",
+   "d - Marimba - Short Hits Discover",
+   "f - Xylophone - Short Hits Discover",
+   "g - Glockenspiel - Short Hits Discover"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0.5,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 0.5,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 1,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Piano": {
+  "artics": [
+   "Piano"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0.5,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 0,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 1,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.7165354490280151,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0.5039370059967041,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 0,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Strings_Basses": {
+  "artics": [
+   "j - Basses - Long",
+   "j - Basses - Short Spiccato",
+   "j - Basses - Short Pizzicato"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 1,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Strings_Celli": {
+  "artics": [
+   "h - Celli - Long",
+   "h - Celli - Short Spiccato",
+   "h - Celli - Short Pizzicato",
+   "h - Celli - Tremolo"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 1,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Strings_Violas": {
+  "artics": [
+   "f - Violas - Long",
+   "f - Violas - Short Spiccato",
+   "f - Violas - Short Pizzicato",
+   "f - Violas - Tremolo"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 1,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Strings_Violins_1": {
+  "artics": [
+   "b - Violins 1 - Long",
+   "b - Violins 1 - Short Spiccato",
+   "b - Violins 1 - Short Pizzicato",
+   "b - Violins 1 - Tremolo"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 1,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Strings_Violins_2": {
+  "artics": [
+   "d - Violins 2 - Long",
+   "d - Violins 2 - Short Spiccato",
+   "d - Violins 2 - Short Pizzicato",
+   "d - Violins 2 - Tremolo"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 1,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Woodwinds_Bassoons_a3": {
+  "artics": [
+   "i - Bassoons a3 - Long",
+   "i - Bassoons a3 - Short Staccatissimo"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0.5,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 1,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Woodwinds_Clarinets_a3": {
+  "artics": [
+   "g - Clarinets a3 - Long",
+   "g - Clarinets a3 - Short Staccatissimo"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0.5,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 1,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Woodwinds_Flutes_a3": {
+  "artics": [
+   "b - Flutes a3 - Long",
+   "b - Flutes a3 - Short Staccatissimo"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0.5,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 1,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Woodwinds_Oboes_a3": {
+  "artics": [
+   "e - Oboes a3 - Long",
+   "e - Oboes a3 - Short Staccatissimo"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0.5,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 1,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ },
+ "Woodwinds_Piccolo": {
+  "artics": [
+   "c - Piccolo - Long",
+   "c - Piccolo - Short Staccatissimo"
+  ],
+  "controls": [
+   {
+    "id": "g_gain",
+    "value": 1,
+    "cc": 7
+   },
+   {
+    "id": "g_pan",
+    "value": 0.5,
+    "cc": 10
+   },
+   {
+    "id": "g_tune",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_reverb",
+    "value": 0,
+    "cc": 19
+   },
+   {
+    "id": "i_tight",
+    "value": 0.5,
+    "cc": 18
+   },
+   {
+    "id": "i_release",
+    "value": 0.5,
+    "cc": 17
+   },
+   {
+    "id": "i_expression",
+    "value": 1,
+    "cc": 11
+   },
+   {
+    "id": "i_dynamics",
+    "value": 1,
+    "cc": 1
+   },
+   {
+    "id": "i_variation",
+    "value": 0,
+    "cc": 20
+   },
+   {
+    "id": "i_vibrato",
+    "value": 1,
+    "cc": 21
+   },
+   {
+    "id": "i_pedvol",
+    "value": 0.5,
+    "cc": 16
+   },
+   {
+    "id": "i_direction",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "i_mixsimple",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_flip",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "s_width",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "s_pan",
+    "value": 0.5,
+    "cc": null
+   },
+   {
+    "id": "i_meta[18]",
+    "value": 0,
+    "cc": null
+   },
+   {
+    "id": "m_mono",
+    "value": 0,
+    "cc": 30
+   },
+   {
+    "id": "m_tree",
+    "value": 0,
+    "cc": 27
+   },
+   {
+    "id": "m_out",
+    "value": 0,
+    "cc": 28
+   },
+   {
+    "id": "m_amb",
+    "value": 0,
+    "cc": 29
+   },
+   {
+    "id": "m_balcony",
+    "value": 0,
+    "cc": 37
+   },
+   {
+    "id": "m_sides",
+    "value": 0,
+    "cc": 36
+   },
+   {
+    "id": "m_atmosf",
+    "value": 0,
+    "cc": 48
+   },
+   {
+    "id": "m_atmosr",
+    "value": 0,
+    "cc": 49
+   },
+   {
+    "id": "m_mids",
+    "value": 0,
+    "cc": 35
+   },
+   {
+    "id": "m_stereo",
+    "value": 0,
+    "cc": 34
+   },
+   {
+    "id": "m_leader",
+    "value": 0,
+    "cc": 31
+   },
+   {
+    "id": "m_close",
+    "value": 0,
+    "cc": 26
+   },
+   {
+    "id": "m_clwdpan",
+    "value": 0,
+    "cc": 33
+   },
+   {
+    "id": "m_spllstr",
+    "value": 0,
+    "cc": 38
+   },
+   {
+    "id": "m_spllwnd",
+    "value": 0,
+    "cc": 40
+   },
+   {
+    "id": "m_spllbr",
+    "value": 0,
+    "cc": 42
+   },
+   {
+    "id": "m_spllper",
+    "value": 0,
+    "cc": 44
+   },
+   {
+    "id": "m_spllfll",
+    "value": 0,
+    "cc": 46
+   },
+   {
+    "id": "m_flmxrl",
+    "value": 1,
+    "cc": 22
+   },
+   {
+    "id": "m_flmxjj",
+    "value": 0,
+    "cc": 24
+   },
+   {
+    "id": "m_pmix1",
+    "value": 1,
+    "cc": 23
+   },
+   {
+    "id": "m_pmix2",
+    "value": 0,
+    "cc": 25
+   },
+   {
+    "id": "m_pham",
+    "value": 0,
+    "cc": 39
+   },
+   {
+    "id": "m_prib",
+    "value": 0,
+    "cc": 41
+   },
+   {
+    "id": "m_pmid",
+    "value": 0,
+    "cc": 43
+   },
+   {
+    "id": "m_pfar",
+    "value": 0,
+    "cc": 45
+   },
+   {
+    "id": "m_spillall",
+    "value": 0,
+    "cc": 47
+   },
+   {
+    "id": "m_virt",
+    "value": 1,
+    "cc": null
+   }
+  ]
+ }
+}

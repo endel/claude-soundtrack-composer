@@ -1,0 +1,53 @@
+# Fine control over score.yaml, kept apart so a regenerated score keeps it. More specific rules win (src/score/select.ts);
+# values are 0–1 or ppp…fff, keyframes [[where 0–1, level], …], or { from, to, ease, delay } (src/score/values.ts).
+#
+# BBC SO Discover responds to dynamics, expression, release, reverb, gain, pan and tune (scripts/audit.ts measured
+# each). It ignores its own vibrato, so REAPER plays that, along with spread, tone and volume (patches.ts VOICE).
+
+# Everyone breathes a little.
+- select: "*"
+  set: { humanize: { timing: 8, vel: 6 } }
+
+# The strings swell through the intro...
+- select: "strings @ intro"
+  over: span
+  set: { dynamics: [[0, pp], [0.75, mf], [1, mp]] }
+
+# ...and through the theme, cresting twice.
+- select: "strings @ theme"
+  over: span
+  set: { dynamics: [[0, mp], [0.45, f], [0.6, mf], [0.95, f], [1, mf]] }
+
+# The melody sits on top.
+- select: "vln1 @ theme"
+  set: { vel: "+10", expression: 1 }
+
+# Its long notes lean in and let go: a swell inside each one, the vibrato blooming late.
+- select: "vln1 [dur>=3]"
+  set: { expression: [[0, 0.72], [0.55, 1], [1, 0.8]], vibrato: { from: 0, to: 0.3, ease: in, delay: 0.3 } }
+
+# One leaned-on note, a touch early.
+- select: "vln1 @ theme m2 b1"
+  set: { vel: 112, timing: -15 }
+
+# Two passing notes played spiccato.
+- select: "vln1 @ theme m3 b3-4"
+  set: { artic: spic, vel: 96 }
+
+# The horns grow out of nothing, and fade at the end.
+- select: "hn @ theme"
+  over: span
+  set: { dynamics: { from: ppp, to: f, ease: in }, expression: { from: 0.6, to: 0.9 } }
+- select: "hn @ outro"
+  over: span
+  set: { dynamics: { from: mf, to: pp, ease: out } }
+
+# The last chord dies away into the hall: a long release, more of BBC's own room.
+- select: "strings @ outro m4"
+  set: { dynamics: { from: mp, to: ppp, ease: out }, release: 0.9, reverb: 0.45 }
+
+# Drums: the hats lighter, the fill building.
+- select: "drums [pitch=42]"
+  set: { vel: 60 }
+- select: "drums @ theme m8"
+  set: { vel: "+15" }

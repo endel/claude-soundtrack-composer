@@ -1,0 +1,31 @@
+{
+  "name": "claude-soundtrack-composer",
+  "description": "Compose songs with Claude: a theory-level plan becomes notes, rendered by REAPER with your own virtual instruments",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/endel/claude-soundtrack-composer"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "doctor": "node scripts/doctor.ts",
+    "compose": "node scripts/compose.ts",
+    "build": "node scripts/build.ts",
+    "balance": "node scripts/balance.ts",
+    "levels": "node scripts/levels.ts",
+    "validate": "node scripts/validate.ts",
+    "test": "node --test test/*.test.ts",
+    "audit": "node scripts/audit.ts",
+    "probe": "node scripts/probe.ts",
+    "capture": "node scripts/capture.ts",
+    "plugins": "node scripts/plugins.ts",
+    "spike": "node scripts/spike.ts",
+    "ranges": "node scripts/ranges.ts"
+  },
+  "dependencies": {
+    "yaml": "2.8.1"
+  }
+}

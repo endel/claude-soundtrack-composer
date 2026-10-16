@@ -1,0 +1,83 @@
+# What the engine will write: notes at the level of the music. Every nuance lives in overrides.yaml.
+title: Demo in D minor
+tempo: 76
+meter: [4, 4]
+seed: 1
+
+sections:
+  - { name: intro, bars: 4 }   # Dm  Bb  Gm  A
+  - { name: theme, bars: 8 }   # Dm  F   Bb  C   Gm  Bb  A   Dm
+  - { name: outro, bars: 4 }   # Bb  Gm  A   Dm
+
+tracks:
+  - id: vln1
+    name: Violins 1
+    instrument: bbc/vln1
+    group: strings
+    vol: -2
+    pan: -0.35
+    phrases:
+      - "intro m3 | D5:4 | C#5:4"
+      - "theme m1 | A4:2 D5:1 E5:1 | F5:3 E5:1 | D5:2 C5:1 Bb4:1 | C5:4 | Bb4:2 D5:1 G5:1 | F5:3 D5:1 | E5:2 C#5:2 | D5:4"
+      - "outro m1 | D5:4 | Bb4:4 | A4:2 C#5:2 | D5:4"
+
+  - id: vln2
+    name: Violins 2
+    instrument: bbc/vln2
+    group: strings
+    vol: 0
+    pan: -0.15
+    phrases:
+      - "intro m1 | F4:4 | F4:4 | D4:4 | E4:4"
+      - "theme m1 | F4:4 | F4:4 | F4:4 | E4:4 | D4:4 | F4:4 | E4:4 | F4:4"
+      - "outro m1 | F4:4 | D4:4 | E4:4 | F4:4"
+
+  - id: vla
+    name: Violas
+    instrument: bbc/vla
+    group: strings
+    vol: -1
+    pan: 0.15
+    phrases:
+      - "intro m1 | A3:4 | Bb3:4 | Bb3:4 | C#4:4"
+      - "theme m1 | A3:4 | A3:4 | Bb3:4 | C4:4 | Bb3:4 | D4:4 | C#4:4 | D4:4"
+      - "outro m1 | D4:4 | D4:4 | C#4:4 | A3:4"
+
+  - id: vc
+    name: Celli
+    instrument: bbc/vc
+    group: strings
+    vol: -6
+    pan: 0.3
+    phrases:
+      - "intro m1 | D3:4 | Bb2:4 | G2:4 | A2:4"
+      - "theme m1 | D3:4 | F2:4 | Bb2:4 | C3:4 | G2:4 | Bb2:4 | A2:4 | D3:4"
+      - "outro m1 | Bb2:4 | G2:4 | A2:4 | D3:4"
+
+  - id: cb
+    name: Basses
+    instrument: bbc/cb
+    group: strings
+    vol: -6
+    pan: 0.4
+    phrases:
+      - "theme m1 artic=pizz | D2:1 r:1 A1:1 r:1 | F2:1 r:1 C2:1 r:1 | Bb1:1 r:1 F2:1 r:1 | C2:1 r:1 G1:1 r:1 | G1:1 r:1 D2:1 r:1 | Bb1:1 r:1 F2:1 r:1 | A1:1 r:1 E2:1 r:1 | D2:1 r:1 A1:1 r:1"
+
+  - id: hn
+    name: Horns
+    instrument: bbc/hn
+    vol: -8
+    pan: 0.1
+    phrases:
+      - "theme m5 | D4:4 | D4:4 | E4:4 | F4:4"
+      - "outro m1 | Bb3:4 | Bb3:4 | A3:4 | A3:4"
+
+  - id: drums
+    name: Drums
+    instrument: ezd3
+    setup: { kit: MainRoom, mix: { hats: 12 } } # EZdrummer's closed hat sits far under its kick; its own mixer lifts it
+    vol: -12
+    phrases:
+      - "theme m1 vel=70 | kick+hat:1 hat:1 snare+hat:1 hat:1 | kick+hat:1 hat:1 snare+hat:1 kick+hat:1 | kick+hat:1 hat:1 snare+hat:1 hat:1 | kick+hat:1 hat:1 snare+hat:1 hat-open:1"
+      - "theme m5 vel=76 | kick+ride:1 ride:1 snare+ride:1 ride:1 | kick+ride:1 ride:1 snare+ride:1 kick+ride:1 | kick+ride:1 ride:1 snare+ride:1 ride:1 | tom1:1/2 tom1:1/2 tom2:1/2 tom3:1/2 tom4:1/2 tom5:1/2 snare:1/2 snare:1/2"
+      - "outro m1 | kick+crash:4"

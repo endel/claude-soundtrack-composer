@@ -1,0 +1,100 @@
+desc:Composer voice: vibrato, width, tone, volume and pan for instruments without them
+//tags: utility composer
+//
+// Each slider runs 0–1, so REAPER's envelopes (PARMENV … 0 1) carry the score's levels as written. At their rests
+// (depth 0, width, tone and pan 0.5, volume 1) the sound passes through unchanged, delayed by the fixed `base`
+// REAPER compensates.
+
+slider1:depth=0<0,1,0.001>Vibrato depth (1 = 60 cents)
+slider2:rate=0.5<0,1,0.001>Vibrato rate (3–8 Hz)
+slider3:width=0.5<0,1,0.001>Width (0 mono, 1 twice as wide)
+slider4:tone=0.5<0,1,0.001>Tone (0 dark, 1 bright: ±6 dB tilt at 700 Hz)
+slider5:vol=1<0,1,0.001>Volume (0.5 = -12 dB)
+slider6:pan=0.5<0,1,0.001>Pan (balance)
+
+in_pin:left input
+in_pin:right input
+out_pin:left output
+out_pin:right output
+
+@init
+CENTS = 60;
+RLO = 3;
+RHI = 8;
+// the swing moves around a fixed delay: 4 ms holds the deepest, slowest vibrato (±1.9 ms)
+base = ceil(0.004 * srate);
+pdc_delay = base;
+pdc_bot_ch = 0;
+pdc_top_ch = 2;
+size = 2 * base + 8;
+bl = 0;
+br = size;
+memset(0, 0, 2 * size);
+wp = 0;
+ph = ph2 = ph3 = 0;
+sd = depth; sr = rate; sw = width; st = tone; sv = vol; sp = pan;
+k = 1 - exp(-1 / (0.01 * srate)); // 10 ms: automation steps don't click
+lpk = 1 - exp(-2 * $pi * 700 / srate);
+lpl = lpr = 0;
+TWO_PI = 2 * $pi;
+
+function tap(buf, rp) local(i, f, xm, x0, x1, x2) (
+  i = floor(rp);
+  f = rp - i;
+  xm = buf[(i - 1 + size) % size];
+  x0 = buf[i % size];
+  x1 = buf[(i + 1) % size];
+  x2 = buf[(i + 2) % size];
+  // 4-point Hermite
+  ((((0.5 * (x2 - xm) + 1.5 * (x0 - x1)) * f + (xm - 2.5 * x0 + 2 * x1 - 0.5 * x2)) * f + 0.5 * (x1 - xm)) * f + x0);
+);
+
+@sample
+sd += k * (depth - sd);
+sr += k * (rate - sr);
+sw += k * (width - sw);
+st += k * (tone - st);
+sv += k * (vol - sv);
+sp += k * (pan - sp);
+
+bl[wp] = spl0;
+br[wp] = spl1;
+// a living vibrato: the rate drifts a little, the same on every render
+f = (RLO + (RHI - RLO) * sr) * (1 + 0.05 * sin(ph2) + 0.025 * sin(ph3));
+// a delay swinging ±a samples at f Hz bends the pitch by ±2πfa/srate
+a = (2 ^ (CENTS * sd / 1200) - 1) / (TWO_PI * f) * srate;
+rp = wp - (base + a * sin(ph));
+rp < 0 ? rp += size;
+l = tap(bl, rp);
+r = tap(br, rp);
+ph += TWO_PI * f / srate;
+ph >= TWO_PI ? ph -= TWO_PI;
+ph2 += TWO_PI * 0.37 / srate;
+ph2 >= TWO_PI ? ph2 -= TWO_PI;
+ph3 += TWO_PI * 0.23 / srate;
+ph3 >= TWO_PI ? ph3 -= TWO_PI;
+wp += 1;
+wp >= size ? wp = 0;
+
+m = (l + r) * 0.5;
+s = (l - r) * sw; // 0.5 → as it was
+l = m + s;
+r = m - s;
+
+t = (st - 0.5) * 2;
+t != 0 ? (
+  lpl += lpk * (l - lpl);
+  lpr += lpk * (r - lpr);
+  gl = 10 ^ (-0.3 * t);
+  gh = 10 ^ (0.3 * t);
+  l = lpl * gl + (l - lpl) * gh;
+  r = lpr * gl + (r - lpr) * gh;
+) : (
+  lpl += lpk * (l - lpl);
+  lpr += lpk * (r - lpr);
+);
+
+g = sv * sv;
+p = (sp - 0.5) * 2;
+spl0 = l * g * (p > 0 ? 1 - p : 1);
+spl1 = r * g * (p < 0 ? 1 + p : 1);

@@ -1,0 +1,118 @@
+# Measured by scripts/balance.ts from the last render: each track's fader, and a cut where a section wants less.
+# Balance again after composing; overrides.yaml applies over this.
+tracks:
+  hn:
+    vol: 10
+    sections:
+      riff: -17.8
+      chant: -7
+      wings: -21.9
+      ascent: -11.3
+      apotheosis: -7.8
+      finale: -9
+  vln1:
+    vol: 10.6
+    sections:
+      omen: -20.1
+      riff: -21.6
+      chant: -18
+      wings: -4.8
+      angel: -19.5
+      ascent: -16.2
+      finale: -17.2
+  vln2:
+    vol: 12.5
+    sections:
+      omen: -20.1
+      riff: -2.9
+      chant: -7.3
+      wings: -8
+      angel: -20.8
+      apotheosis: -8.3
+      finale: -14.7
+  tbn:
+    vol: 14.1
+    sections:
+      omen: -16.2
+      chant: -10.1
+      wings: -6.3
+      ascent: -12.6
+      apotheosis: -5
+      finale: -12.2
+  btb:
+    vol: 11.7
+    sections:
+      omen: -11
+      chant: -10.2
+      wings: -3.8
+      ascent: -5.2
+      apotheosis: -0.5
+      finale: -2.9
+  tba:
+    vol: 11.3
+    sections:
+      omen: -3.4
+      chant: -8.2
+      wings: -8.6
+      ascent: -2.7
+      apotheosis: -6.3
+  vc:
+    vol: 10.7
+    sections:
+      omen: -11.7
+      riff: -3.3
+      chant: -7.9
+      wings: -11.4
+      angel: -7
+      apotheosis: -9.5
+      finale: -10.7
+  cb:
+    vol: 15
+    sections:
+      omen: -7.1
+      chant: -5.4
+      wings: -9.3
+      ascent: -0.7
+      apotheosis: -8.2
+      finale: -6.6
+  timp:
+    vol: -4
+    sections:
+      omen: -2.1
+      riff: -1.3
+      wings: -6.5
+      ascent: -8.1
+      apotheosis: -5.9
+      finale: -1.3
+  vla:
+    vol: 2.6
+    sections:
+      riff: -8.3
+      chant: -13
+      angel: -13.4
+      ascent: -4.4
+      apotheosis: -12.7
+      finale: -11.9
+  drums:
+    vol: 11.5
+    sections:
+      riff: -2.6
+      chant: -1.1
+      wings: -6.4
+      apotheosis: -4.1
+      finale: -0.6
+  tpt:
+    vol: 5.3
+    sections:
+      apotheosis: -2
+      finale: -3.3
+  fl:
+    vol: 0.1
+    sections:
+      apotheosis: -4.3
+  harp:
+    vol: 7.5
+    sections: {}
+  cel:
+    vol: 13.2
+    sections: {}

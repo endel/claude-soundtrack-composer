@@ -1,0 +1,170 @@
+{
+ "floor": -240,
+ "level": -38.4,
+ "effect": {
+  "gain": {
+   "changes": true,
+   "dB": 0
+  },
+  "pan": {
+   "changes": true,
+   "dB": -1.1
+  },
+  "reverb": {
+   "changes": true,
+   "dB": -2.5
+  },
+  "tightness": {
+   "changes": false,
+   "dB": -240
+  },
+  "release": {
+   "changes": true,
+   "dB": -16.4
+  },
+  "expression": {
+   "changes": true,
+   "dB": -1.1
+  },
+  "dynamics": {
+   "changes": true,
+   "dB": -2.4
+  },
+  "variation": {
+   "changes": false,
+   "dB": -240
+  },
+  "vibrato": {
+   "changes": false,
+   "dB": -240
+  },
+  "pedal": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.mono": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.tree": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.out": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.amb": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.balcony": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.sides": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.atmosf": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.atmosr": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.mids": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.stereo": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.leader": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.close": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.clwdpan": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.spllstr": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.spllwnd": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.spllbr": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.spllper": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.spllfll": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.flmxrl": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.flmxjj": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.pmix1": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.pmix2": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.pham": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.prib": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.pmid": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.pfar": {
+   "changes": false,
+   "dB": -240
+  },
+  "mic.spillall": {
+   "changes": false,
+   "dB": -240
+  },
+  "mix": {
+   "changes": false,
+   "dB": -240
+  },
+  "spread": {
+   "changes": false,
+   "dB": -240
+  },
+  "tune": {
+   "changes": true,
+   "dB": 0.3
+  },
+  "direction": {
+   "changes": false,
+   "dB": -240
+  }
+ }
+}
