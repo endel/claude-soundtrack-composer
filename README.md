@@ -1,4 +1,4 @@
-<h1 align="center"><img src="media/header.jpg" alt="Claude Soundtrack Composer: Claude Code's mascot conducting an orchestra of light" width="100%"></h1>
+<h1 align="center"><img src="docs/assets/header.jpg" alt="Claude Soundtrack Composer: Claude Code's mascot conducting an orchestra of light" width="100%"></h1>
 
 Describe a song to Claude. Claude composes it at the level of music theory (form, keys, chords, themes, who plays
 what), a seeded engine works out every note, and REAPER renders it with the virtual instruments on your own
@@ -18,9 +18,15 @@ your own copy of REAPER, so what you hear is only as good as what you own. See [
 
 ## Listen
 
-[`songs/black-feather/black-feather.mp3`](songs/black-feather/black-feather.mp3) (2:21), composed from the prompt
-"A theme song inspired by Sephiroth/One winged angel": an original piece in that manner, not a copy. Read the
-[plan Claude wrote](songs/black-feather/plan.yaml) and the [score the engine derived](songs/black-feather/score.yaml).
+**[Hear the demos](https://endel.github.io/claude-soundtrack-composer/)**: GitHub can't play audio inside a README,
+so the demos have their own page.
+
+- *Black Feather* (2:21) was composed with this tool from the prompt "A theme song inspired by Sephiroth/One winged
+  angel": an original piece in that manner, not a copy. Read the [plan Claude wrote](songs/black-feather/plan.yaml)
+  and the [score the engine derived](songs/black-feather/score.yaml), or get the
+  [mp3](docs/audio/black-feather.mp3).
+- Three pieces from the soundtrack of the game Mazmorra 2.0, composed by Claude with the toolkit this project grew
+  out of, where each piece was written as code rather than as a plan.
 
 ## What you need
 
@@ -152,6 +158,8 @@ npm run build -- songs/night-bus --render --audition="vln1 @ verse m3-4"   # jus
 - `src/mix/`, `src/audio/`: balance, loudness and mastering.
 - `catalog/`, `data/`, `patches/`: what was measured about the instruments. `songs/`: one folder per song
   (`songs/demo` is written by hand, with no plan).
+- `docs/`: the demo page, served by GitHub Pages. `npm run site` redraws its waveforms after you add an mp3 to
+  `docs/audio/`.
 
 ## Why REAPER
 

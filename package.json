@@ -24,7 +24,8 @@
     "capture": "node scripts/capture.ts",
     "plugins": "node scripts/plugins.ts",
     "spike": "node scripts/spike.ts",
-    "ranges": "node scripts/ranges.ts"
+    "ranges": "node scripts/ranges.ts",
+    "site": "node scripts/site.ts"
   },
   "dependencies": {
     "yaml": "2.8.1"
