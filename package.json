@@ -1,6 +1,7 @@
 {
   "name": "claude-soundtrack-composer",
   "description": "Compose songs with Claude: a theory-level plan becomes notes, rendered by REAPER with your own virtual instruments",
+  "license": "MIT",
   "private": true,
   "type": "module",
   "repository": {

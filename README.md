@@ -198,3 +198,7 @@ Moving to another host would mean replacing `src/reaper/`, `src/perform.ts` and 
 - Tempo changes are placed exactly in the render, but the REAPER project keeps a single tempo, so its ruler drifts
   if you open it.
 - The mix is measured, not listened to: trust your ears over `balance.yaml`, and say what you hear.
+
+## License
+
+[MIT](LICENSE). It covers this repository; the instruments you play it with keep their own licences.
