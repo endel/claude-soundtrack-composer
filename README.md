@@ -25,7 +25,7 @@ so the demos have their own page.
   angel": an original piece in that manner, not a copy. Read the [plan Claude wrote](songs/black-feather/plan.yaml)
   and the [score the engine derived](songs/black-feather/score.yaml), or get the
   [mp3](docs/audio/black-feather.mp3).
-- Three pieces from the soundtrack of the game Mazmorra 2.0, composed by Claude with the toolkit this project grew
+- Three pieces from the soundtrack of the game [Mazmorra 2.0](https://mazmorra.io), composed by Claude with the toolkit this project grew
   out of, where each piece was written as code rather than as a plan.
 
 ## What you need
