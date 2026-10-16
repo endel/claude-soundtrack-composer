@@ -45,6 +45,10 @@ Then iterate on what they say:
 
 ## The instruments
 
+Nothing ships with sounds: only instruments installed on the user's machine and set up here can play. When a
+prompt asks for one that isn't (a choir, a guitar, a synth), say so plainly. Then either offer the nearest that
+is, or offer to set theirs up together (the last item below); don't quietly substitute one.
+
 - **BBC Symphony Orchestra Discover** (free from Spitfire Audio), `bbc/<id>`:
   strings `vln1 vln2 vla vc` (`long spic pizz trem`) and `cb` (`long spic pizz`); brass `hn tpt tbn btb tba` and
   woodwinds `fl ob cl bsn picc` (`long stac`); `harp celeste timpani bells glock marimba xylo perc piano`.
